@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+body,
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#im-g {
+  margin-top: 30px;
+  border-radius: 20px;
+}
+button img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  
+  
+}
+
+button{
+  background-color: aquamarine;
+  border: none;
+}
+
+#sum,
+#His {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border: 2px;
+
+}
+
+th{
+  background-color: rgb(44, 44, 167);
+  color: azure;
+}
+
+td{
+  background-color: blanchedalmond;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
